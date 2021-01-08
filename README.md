@@ -1,5 +1,8 @@
-# sp21-hackathon
-Spring 2021 MCIT Online Hackathon
+# User-Friendly COVID-19 Risk Factor Analysis
+
+## Overview
+
+### Project summary
 
 ### Authors
 
