@@ -4,7 +4,7 @@ Spring 2021 MCIT Online Hackathon
 ### Authors
 
 * **Chenming Cao** - [Devpost ID](https://devpost.com/chenming-cao) – chenmcao@seas.upenn.edu – [GitHub](https://github.com/chenming-cao/)
-* **Valerie Sutera** - [Devpost ID](https://devpost.com/valeriesutera) – vsutera@gmail.com – [GitHub](https://github.com/valeriesutera/)
+* **Valerie Sutera** - [Devpost ID](https://devpost.com/valeriesutera) – vsutera@seas.upenn.edu – [GitHub](https://github.com/valeriesutera/)
 * **Cedric Vicera** - [Devpost ID](https://devpost.com/cedricvicera) – vicera@seas.upenn.edu – [GitHub](https://github.com/cedricvicera/)
 
 ### License
