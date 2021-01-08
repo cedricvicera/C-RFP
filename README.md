@@ -2,7 +2,7 @@
 Spring 2021 MCIT Online Hackathon
 
 # Team Members
-Chenming Cao
-Valerie Sutera
-Cedric Vicera
+- Chenming Cao
+- Valerie Sutera
+- Cedric Vicera
 
