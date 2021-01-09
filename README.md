@@ -18,11 +18,11 @@
 
 Which frameworks, libraries, or other tools did you use to create your project?
 
-* 
+* [Flask](https://flask.palletsprojects.com/) - A lightweight WSGI web application framework.
 
 ### Acknowledgments
 
-* 
+* [CDC COVID-19 Case Surveillance Public Use Data](https://data.cdc.gov/Case-Surveillance/COVID-19-Case-Surveillance-Public-Use-Data/vbim-akqf)
 
 ### License
 
