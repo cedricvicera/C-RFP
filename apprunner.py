@@ -14,12 +14,12 @@ def home():
 @app.route("/form", methods=["POST", "GET"])
 def form():
     if request.method == "POST":
-        sex = request.form.get("sex")
-        age = request.form.get("age")
+        sex = request.form.get("gender")
+        age = request.form.get("agegroup")
         race = request.form.get("race")
-        print(sex, age, race)  #will be replaced with data processing methods, delete later
+        print(gender, agegroup, race)  #will be replaced with data processing methods, delete later
         df_filter = df.copy()
-        df_filter = filter_df(df, sex, age, race)
+        df_filter = filter_df(df, gender, agegroup, race)
         print("filtered df")
         print(df_filter)
         result = str(calculator(df_filter))
