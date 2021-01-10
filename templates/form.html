@@ -39,7 +39,7 @@
 
 	<div class="container-contact100">
 		<div class="wrap-contact100">
-			<form class="contact100-form validate-form">
+			<form class="contact100-form validate-form" method="POST">
 				<span class="contact100-form-title">
 					COVID-19 Risk Factor Predictor
 				</span>
@@ -49,9 +49,9 @@
 					<div>
 						<select class="selection-2" name="gender">
 							<option>Select Gender</option>
-							<option>Male</option>
-							<option>Female</option>
-							<option>Other</option>
+							<option value="male">Male</option>
+							<option value="male">Female</option>
+							<option value="male">Other</option>
 						</select>
 					</div>
 					<span class="focus-input100"></span>
@@ -98,7 +98,7 @@
 					<div class="wrap-contact100-form-btn">
 						<div class="contact100-form-bgbtn"></div>
 						<form>
-						<button class="contact100-form-btn" formaction="/result">
+						<button class="contact100-form-btn" formaction="#">
 							<span>
 								Submit
 								<i class="fa fa-long-arrow-right m-l-7" aria-hidden="true"></i>
