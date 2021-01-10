@@ -37,7 +37,7 @@ Which frameworks, libraries, or other tools did you use to create your project?
 ### Acknowledgments
 
 * [CDC COVID-19 Case Surveillance Public Use Data](https://data.cdc.gov/Case-Surveillance/COVID-19-Case-Surveillance-Public-Use-Data/vbim-akqf)
-* HTML template publicly available and modified from [Colorlib](https://colorlib.com/wp/).
+* HTML template publicly available and modified from [w3schools](https://www.w3schools.com/https://www.w3schools.com/).
 
 ### License
 
