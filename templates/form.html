@@ -76,6 +76,24 @@
 					<span class="focus-input100"></span>
 				</div>
 
+				<div class="wrap-input100 input100-select">
+					<span class="label-input100">Race/Ethnicity</span>
+					<div>
+						<select class="selection-2" name="race">
+							<!-- Value better not start with number -->
+							<option>select Race/Ethnicity</option>
+							<option value="Latino">Hispanic/Latino</option>
+							<option value="American Indian">American Indian/Alaska Native, Non-Hispanic</option>
+							<option value="Asian">Asian, Non-Hispanic</option>
+							<option value="Black">Black, Non-Hispanic</option>
+							<option value="Native Hawaiian">Native Hawaiian/Other Pacific Islander, Non-Hispanic</option>
+							<option value="White">White, Non-Hispanic</option>
+							<option value="Other">Multiple/Other, Non-Hispanic</option>
+						</select>
+					</div>
+					<span class="focus-input100"></span>
+				</div>
+
 				<div class="container-contact100-form-btn">
 					<div class="wrap-contact100-form-btn">
 						<div class="contact100-form-bgbtn"></div>
@@ -98,18 +116,18 @@
 	<div id="dropDownSelect1"></div>
 
 <!--===============================================================================================-->
-	<script src="{{ url_for('static', filename='vendor/jquery/jquery-3.2.1.min.js') }}"></script>
+	<script src="../static/vendor/jquery/jquery-3.2.1.min.js"></script>
 	<!--<script src="../vendor/jquery/jquery-3.2.1.min.js"></script>-->
 <!--===============================================================================================-->
-	<script src="{{ url_for('static', filename='vendor/animsition/js/animsition.min.js') }}"></script>
+	<script src="../static/vendor/animsition/js/animsition.min.js"></script>
 	<!--<script src="../vendor/animsition/js/animsition.min.js"></script>-->
 <!--===============================================================================================-->
-	<script src="{{ url_for('static', filename='vendor/bootstrap/js/popper.js') }}"></script>
-	<script src="{{ url_for('static', filename='vendor/bootstrap/js/bootstrap.min.js') }}"></script>
+	<script src="../static/vendor/bootstrap/js/popper.js"></script>
+	<script src="../static/vendor/bootstrap/js/bootstrap.min.js"></script>
 	<!--<script src="../vendor/bootstrap/js/popper.js"></script>-->
 	<!--<script src="../vendor/bootstrap/js/bootstrap.min.js"></script>-->
 <!--===============================================================================================-->
-	<script src="{{ url_for('static', filename='vendor/select2/select2.min.js') }}"></script>
+	<script src="../static/vendor/select2/select2.min.js"></script>
 	<!--<script src="../vendor/select2/select2.min.js"></script>-->
 	<script>
 		$(".selection-2").select2({
@@ -118,15 +136,15 @@
 		});
 	</script>
 <!--===============================================================================================-->
-	<script src="{{ url_for('static', filename='vendor/daterangepicker/moment.min.js') }}"></script>
-	<script src="{{ url_for('static', filename='vendor/daterangepicker/daterangepicker.js') }}"></script>
+	<script src="../static/vendor/daterangepicker/moment.min.js"></script>
+	<script src="../static/vendor/daterangepicker/daterangepicker.js"></script>
 	<!--<script src="../vendor/daterangepicker/moment.min.js"></script>-->
 	<!--<script src="../vendor/daterangepicker/daterangepicker.js"></script>-->
 <!--===============================================================================================-->
-	<script src="{{ url_for('static', filename='vendor/countdowntime/countdowntime.js') }}"></script>
+	<script src="../static/vendor/countdowntime/countdowntime.js"></script>
 	<!--<script src="../vendor/countdowntime/countdowntime.js"></script>-->
 <!--===============================================================================================-->
-	<script src="{{ url_for('static', filename='js/main.js') }}"></script>
+	<script src="../static/js/main.js"></script>
 	<!--<script src="../js/main.js"></script>-->
 
 	<!-- Global site tag (gtag.js) - Google Analytics -->
