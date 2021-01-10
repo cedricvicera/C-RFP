@@ -35,7 +35,7 @@ Install and update using [pip](https://pip.pypa.io/en/stable/quickstart/):
 $ pip install pandas
 ````
 
-Requires downloading and storing the dataset COVID-19_Case_Surveillance_Public_Use_Data.csv into the root directory for data processing. It is available from the link below.
+Requires downloading and storing the dataset * [COVID-19_Case_Surveillance_Public_Use_Data.csv](https://data.cdc.gov/api/views/vbim-akqf/rows.csv?accessType=DOWNLOAD&bom=true&format=true) into the root directory for data processing. It is available from the link below.
 
 ### Tools Used
 
