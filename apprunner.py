@@ -22,8 +22,9 @@ def form():
         df_filter = filter_df(df, sex, age, race)
         print("filtered df")
         print(df_filter)
-        print(calculator(df_filter))
-        return redirect("/") #will be replaced with result page
+        result = str(calculator(df_filter))
+        print(result)
+        return render_template("result.html", number=result)  #need to add a placeholder in result.html
     else:
         return render_template("form.html")
 
@@ -34,5 +35,5 @@ def result():
 
 if __name__== "__main__":
     file_name = 'COVID-19_Case_Surveillance_Public_Use_Data.csv'
-    #df = file_reader(file_name)
+    df = file_reader(file_name)
     app.run(debug=True)
