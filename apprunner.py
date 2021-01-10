@@ -34,5 +34,5 @@ def result():
 
 if __name__== "__main__":
     file_name = 'COVID-19_Case_Surveillance_Public_Use_Data.csv'
-    df = file_reader(file_name)
+    #df = file_reader(file_name)
     app.run(debug=True)
