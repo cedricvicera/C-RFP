@@ -1,4 +1,4 @@
-# User-Friendly COVID-19 Risk Factor Analysis
+# COVID-19 Risk Factor Predictor
 
 ## Overview
 

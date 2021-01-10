@@ -4,7 +4,7 @@ app = Flask(__name__)
 
 @app.route("/")
 def home():
-    return render_template("base.html")
+    return render_template("index.html")
 
 @app.route("/form", methods=["POST", "GET"])
 def getinput():
@@ -12,7 +12,7 @@ def getinput():
     age = request.form.get("age")
     race = request.form.get("race")
     print(sex, age, race)
-    return render_template("index.html")
+    return render_template("form.html")
 
 @app.route("/result")
 def result():
