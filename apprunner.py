@@ -14,9 +14,9 @@ def getinput():
     print(sex, age, race)
     return render_template("form.html")
 
-@app.route("/result")
+@app.route("/results")
 def result():
-    return render_template("result.html")
+    return render_template("results.html")
 
 if __name__== "__main__":
     app.run(debug=True)
