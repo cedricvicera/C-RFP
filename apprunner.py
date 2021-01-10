@@ -20,9 +20,9 @@ def form():
         return render_template("form.html")
 
 #result page
-@app.route("/result")
-def result():
-    return render_template("result.html")
+@app.route("/results")
+def results():
+    return render_template("results.html")
 
 if __name__== "__main__":
     app.run(debug=True)
