@@ -48,13 +48,32 @@ def filter_df(df, sex, age, race):
 def calculator(filtered_df):
     """Count the number of Yes & No in death_yn column. Yes/Total = Risk Factor. Returns the risk factor."""
     if filtered_df.empty:
-        print("Your input information currently does not match any subset of our dataset.")
-        return None
+        return "Your input information currently does not match any subset of our dataset."
     else:
         yes_count = filtered_df.death_yn.value_counts()['Yes']
         no_count = filtered_df.death_yn.value_counts()['No']
         if yes_count+no_count == 0:
-            print("Unfortunately we do not have enough information on the subset of information you provided to make "
-                  "a prediction.")
-            return None
-        return yes_count/(yes_count+no_count)
+            return "Unfortunately we do not have enough information on the subset of information you provided to make a prediction."
+        else:
+            risk = yes_count/(yes_count+no_count)
+            if risk <= .01:
+                return "1"
+            elif risk <= .02:
+                return "2"
+            elif risk <= .03:
+                return "3"
+            elif risk <= .04:
+                return "4"
+            elif risk <= .05:
+                return "5"
+            elif risk <= .06:
+                return "6"
+            elif risk <= .07:
+                return "7"
+            elif risk <= .08:
+                return "8"
+            elif risk <= .09:
+                return "9"
+            else:
+                return "10"
+
