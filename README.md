@@ -28,6 +28,15 @@ $ python apprunner.py
   * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
 ````
 
+Requires Pandas to be installed.
+Install and update using [pip](https://pip.pypa.io/en/stable/quickstart/):
+
+````
+$ pip install pandas
+````
+
+Requires downloading and storing the dataset COVID-19_Case_Surveillance_Public_Use_Data.csv into the root directory for data processing. It is available from the link below.
+
 ### Tools Used
 
 Which frameworks, libraries, or other tools did you use to create your project?
