@@ -1,4 +1,4 @@
-# COVID-19 Risk Factor Predictor
+# COVID-19 Risk Factor Predictor (C-RFP)
 
 ## Overview
 
